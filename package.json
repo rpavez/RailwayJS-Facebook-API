@@ -1,0 +1,22 @@
+{
+  "name": "railway-facebook-api",
+  "description": "Sync/Async FB OpenGraph API Interaction for RailwayJS",
+  "version": "0.0.1",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "author": "Rodrigo Pavez <rpavez@gmail.com>",
+  "directories": {
+    "lib": "."
+  },
+  "dependencies": {
+    "socket.io": ">=0.9.0",
+    "facebook-client": "latest",
+    "node-uuid": "latest"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
