@@ -5,7 +5,7 @@ Sync/Async FB OpenGraph API Interaction for RailwayJS
 
 Installation
 ------------
-railway install https://github.com/1602/railway-twitter.git
+railway install git://github.com/rpavez/RailwayJS-Facebook-API.git
     
 Requirements
 ------------
@@ -16,7 +16,7 @@ Requirements
 Configuration
 -------------
 Include in npmfile.js :
-`require('railway-twitter');`
+`require('railway-facebook-api');`
 
 Usage
 -----
