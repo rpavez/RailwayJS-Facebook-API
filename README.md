@@ -1,8 +1,7 @@
 RailwayJS Facebook API
 ======================
-
 Sync/Async FB OpenGraph API Interaction for RailwayJS
------------------------------------------------------
+
 
 Installation
 ------------
@@ -11,18 +10,13 @@ railway install https://github.com/1602/railway-twitter.git
 Requirements
 ------------
 
-* RailwayJS
+* railwayjs
 * everyauth/mongoose-auth (implemented on environment)
-
-Dependencies (automatic from package):
-* Socket.io
-* Facebook-Client
-* node-uuid
     
 Configuration
 -------------
 Include in npmfile.js :
-require('railway-twitter');    
+`require('railway-twitter');`
 
 Usage
 -----
@@ -47,8 +41,8 @@ Async Way! :
   ```
   
   
-  Include in you template:
-  ```Jade
+  Include in you template (Jade):
+  ```
   script
   $(function() {
   if ("#{socket_key}" != "undefined")
